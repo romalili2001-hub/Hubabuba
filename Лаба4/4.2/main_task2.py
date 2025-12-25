@@ -1,0 +1,17 @@
+# Импорт собственного модуля
+import my_module
+
+# Вызов функций из модуля
+sum_result = my_module.add_numbers(10, 5)
+print(f"Сумма 10 и 5: {sum_result}")
+
+mult_result = my_module.multiply_numbers(4, 7)
+print(f"Произведение 4 и 7: {mult_result}")
+
+greeting = my_module.greet("Иван")
+print(greeting)
+
+# Альтернативный способ импорта
+from my_module import add_numbers
+result = add_numbers(3, 4)
+print(f"Сумма 3 и 4: {result}")
