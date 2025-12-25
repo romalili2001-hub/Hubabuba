@@ -44,7 +44,7 @@ def write_to_file(filename='user_input.txt', append=False):
 def main():
     print("3.2 - добавление и запись в файл")
     while True:
-        choice = input('Cоздать новый файл (1),добавить текст (2),(3) остановить программу')
+        choice = input(' (1) Cоздать новый файл, (2) добавить текст, (3) остановить программу')
         if choice == '1':
             write_to_file(append=False)
         elif choice == '2':
