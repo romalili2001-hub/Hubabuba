@@ -1,13 +1,18 @@
 # 2.1
 name = str(input('Введите ваше имя: '))
-age = input('Введите Ваш возраст: ')
-def describe_person(name, age = 30):
-    return f'Меня зовут {name}, мне {age} лет'
-    if age:
-        return (describe_person(name, age))
-    else:
-       print(describe_person(name))
-
+# 1. 
+def greet(name):
+    print(f"Привет, {name}!")
+# 2. 
+def square(num):
+    return num ** 2
+# 3. 
+def max_of_two(a, b):
+    return a if a > b else b
+# Пример:
+greet("Анна")                
+print(square(5))             
+print(max_of_two(10, 7))     
 # 2.2
 
 from math import sqrt
@@ -43,3 +48,4 @@ def is_prime(n):
 print(is_prime(17))  # True
 print(is_prime(4))   # False
 print(is_prime(1))   # False
+
